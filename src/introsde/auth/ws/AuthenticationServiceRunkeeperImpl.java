@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 import sun.net.www.http.HttpClient;
 
-@WebService(endpointInterface = "introsde.document.ws.AuthenticationServiceRunkeeper", serviceName = "AuthenticationService")
+@WebService(endpointInterface = "introsde.auth.ws.AuthenticationServiceRunkeeper", serviceName = "AuthenticationService")
 public class AuthenticationServiceRunkeeperImpl implements
 		AuthenticationServiceRunkeeper {
 
